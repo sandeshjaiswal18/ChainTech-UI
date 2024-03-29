@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+
+header {
+  background-color: #000000;
+  color: white;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 70px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+#company {
+    color: #00FFA7;
+}
+
+.navbar {
+  height: 60px;
+  border-bottom: 0.1px solid rgb(49, 45, 45);
+  display: flex;
+  justify-content: space-around;
+}
+
+#heading {
+  font-family: Poppins;
+  font-size: 120px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.11em;
+  margin-top: 80px;
+}
+
+#sub_heading {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27.39px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header_container button {
+  width: 211.97px;
+  height: 66.06px;
+  border-radius: 40px;
+  margin-left: 700px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_container {
+  max-width: 98%;
+  padding: 20px;
+  max-height: 571.56px;
+}
+
+.header_container button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header_container button #getstarted_arrow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    background-color: #000000;
+}
+
+.header_container button i {
+    margin-top: 8px;
+    color: white;
+}
+
+/* Hero Section */
+
+.services_offered {
+  margin-left: 50px;
+}
+
+.container h2 {
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70.7px;
+  text-align: left;
+}
+
+.header_container #head {
+  background: -webkit-linear-gradient(#00FFA7, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.45px;
+  text-align: left;
+}
+
+.heading_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading_content .main_heading {
+  margin-left: 120px;
+}
+
+.arrows {
+    margin-right: 130px;
+    width: 93px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.right_arrow i {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.service .c_chaintech_image {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.service .development_image {
+  width: 261px;
+  height: 156px;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+.service span {
+  display: flex;
+}
+
+.service h3 {
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 24.24px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.service p {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21.21px;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.service #upper_line {
+  border-top: 2px solid black;
+  margin-top: 10px;
+}
+
+.service #below_line {
+  border-top: 2px solid black;
+}
+
+.service button {
+  width: 121px;
+  height: 38.55px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-left: 150px;
+  margin-top: 8px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service #second_box {
+  background-color: black;
+  color: white;
+}
+
+.service #arrow {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #00ffa7 0%, #ffff00 100%);
+  color: #000000;
+}
+
+.service i {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.service {
+  width: 293px;
+  height: 402px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.service_boxes {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 0px 180px 0px 120px;
+}
+
+.blockchain1 {
+  background-color: #cff0de;
+}
+
+.blockchain2 {
+  background-color: #c9f1f4;
+}
+
+.securityaas {
+  background-color: #f9d1d1;
+}
+
+.motiongraphic {
+  background-color: #afb8ef;
+}
+
+/* Footer Section */
+
+footer {
+  margin-top: 40px;
+  height: 266px;
+  background-color: #000000;
+}
+
+.footer_container img {
+  margin-top: 80px;
+  margin-left: 700px;
+}
+
+.footer_container hr {
+  margin-top: 40px;
+  width: 800px;
+  margin-left: 400px;
+}
+
+.footer_container p {
+  color: white;
+  margin-top: 30px;
+  margin-left: 660px;
+}
+
+/* Responsive Code */
+
+@media screen and (max-width:1000px) and (min-width: 600px) {
+  .header_container {
+    height: 70vh;
+    width: 98vw;
+  }
+}
